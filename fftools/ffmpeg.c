@@ -33,6 +33,9 @@
 #include <string.h>
 #include <time.h>
 
+#ifndef HAVE_SETCONSOLECTRLHANDLER
+#define HAVE_SETCONSOLECTRLHANDLER
+
 #if HAVE_IO_H
 #include <io.h>
 #endif

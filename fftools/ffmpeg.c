@@ -35,6 +35,7 @@
 
 #ifndef HAVE_SETCONSOLECTRLHANDLER
 #define HAVE_SETCONSOLECTRLHANDLER
+#endif
 
 #if HAVE_IO_H
 #include <io.h>
